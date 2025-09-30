@@ -1,0 +1,13 @@
+/**
+ *all global variables
+ */
+
+:root {
+
+    /**
+      * colors
+      */    
+
+    --live-indicator-shadow: hsla(0, 79%, 63%, 0.5) ;
+    --rich-black-fogra-30:     hsl(219, 32%, 10%);
+}
