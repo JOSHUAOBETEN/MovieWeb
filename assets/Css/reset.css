@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 { color: var(--white); }
  */
 
 body {
-    background-color: var(--rich-black-fogra-29);
+    background-color: var(--oxford-blue);
     color: var(--off-white);
     -webkit-font-smoothing: antialiased;
 }
