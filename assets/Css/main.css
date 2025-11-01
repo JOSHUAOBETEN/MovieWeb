@@ -24,8 +24,15 @@ header, nav { background: var(--oxford-blue); }
 
 .navbar,
 .banner,
-.movies {
-    padding: 200 var(--px);
+.movies,
+.category {
+    padding: 20 var(--px);
+}
+
+.section-heading {
+    font-size: var(--section-heading);
+    font-weight: var(--fw-5);
+    margin-bottom: 60px;
 }
 
 
@@ -407,3 +414,28 @@ input ~ .checked-radio-bg {
 }
 
 .movie-card .genre { margin-right: 8px;}
+
+/**
+ * load more button 
+ */
+
+.load-more {
+    background: var(--rich-black-fogra-30);
+    display: block;
+    padding: 20px 50px;
+    margin: auto;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-5);
+    border-radius: 15px;
+    color: var(--white);
+}
+
+.load-more:hover { background: var(--light-azure); }
+
+
+
+/**
+ * category section
+ */
+
+.category { margin-bottom: 60px; }
